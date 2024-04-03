@@ -1,0 +1,121 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+html {
+    font-size: 20px;
+}
+
+.parent1 {
+    font-size: 1em;
+}
+
+.child1 {
+    font-size: 2em;
+}
+
+.btn {
+    display: block;
+    padding: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
+    width: auto;
+}
+
+.btn {
+    display: block;
+    padding: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 3em;
+    width: auto;
+}
+
+
+
+
+
+
+.parent2 {
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.child2 {
+    background-color: cadetblue;
+    height: 50vh;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+.parent3 {
+    ul {
+        background-color: aquamarine;
+        margin: -20px 0 -20px 0;
+    }
+
+    ol {
+        background-color: chartreuse;
+
+    }
+
+    ol:first-child {
+        background-color: rgb(247, 107, 8);
+    }
+
+    ul:last-child {
+        background-color: brown;
+        margin-bottom: 40px;
+
+        li:nth-child(3) {
+            background-color: cyan;
+            width: 50px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.parent4 {
+    ul {
+        background-color: rgb(2, 54, 37);
+        margin: -20px 0 -20px 0;
+
+        li:nth-of-type(3) {
+            background-color: blue;
+        }
+    }
+
+    ol {
+        background-color: rgb(153, 184, 123);
+
+    }
+}
+
+
+
+
+
+
+.parent5 ul{
+    background-color: blueviolet;
+}
+.parent5>ol{
+    background-color:darkgoldenrod;
+}
+.parent5+ol{
+    background-color:crimson;
+}
+

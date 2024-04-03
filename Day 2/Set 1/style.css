@@ -1,0 +1,23 @@
+.div{
+    background-color :yellow;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rebeccapurple;
+    box-sizing: border-box;
+}
+
+.p{
+    background-color: tomato;
+    width: fit-content;
+}
+.span{
+    background-color: rgb(90, 34, 90);
+    width: 40px;
+    height: 50px;
+}
+
+img{
+    width:400px;
+    height:400px;
+
+}
