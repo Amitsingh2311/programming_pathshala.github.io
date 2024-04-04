@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    max-height: 100vw;
+    background-color: aqua;
+}
+.parent{
+    background-color: blue;
+    padding: 40px;
+    position: fixed;
+    top: 50px;
+    left: 80px;
+}
+
+.one{
+    background-color: brown;
+    padding: 40px;
+}
+.two{
+    background-color: blueviolet;
+    padding: 40px;
+}
+
